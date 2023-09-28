@@ -3,6 +3,7 @@ import './style.css'
 import { createRouter, createWebHistory } from 'vue-router';
 import Routes from './routes.js';
 import App from './App.vue';
+import '../node_modules/bootstrap/js/index.esm.js';
 const app = createApp(App);
 const router = createRouter({
     routes: Routes,
